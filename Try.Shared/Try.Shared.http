@@ -1,0 +1,6 @@
+@Try.Shared_HostAddress = http://localhost:5272
+
+GET {{Try.Shared_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

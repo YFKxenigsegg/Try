@@ -1,0 +1,6 @@
+@Try.Management_HostAddress = http://localhost:5221
+
+GET {{Try.Management_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
