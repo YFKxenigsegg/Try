@@ -1,0 +1,6 @@
+@Try.Analytics_HostAddress = http://localhost:5261
+
+GET {{Try.Analytics_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
