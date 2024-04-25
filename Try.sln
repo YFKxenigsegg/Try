@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Reports", "Try.Reports\Try.Reports.csproj", "{44421B06-AB71-4747-9CF7-9ED13189D89F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try.Reports", "Try.Reports\Try.Reports.csproj", "{44421B06-AB71-4747-9CF7-9ED13189D89F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Management", "Try.Management\Try.Management.csproj", "{8C8A0715-754C-410C-B0BE-32CCCF9376CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try.Management", "Try.Management\Try.Management.csproj", "{8C8A0715-754C-410C-B0BE-32CCCF9376CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Shared", "Try.Shared\Try.Shared.csproj", "{8950ED0E-10DA-49FC-A6A7-DAFD7E8D986C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try.Shared", "Try.Shared\Try.Shared.csproj", "{8950ED0E-10DA-49FC-A6A7-DAFD7E8D986C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.EventBus", "Try.EventBus\Try.EventBus.csproj", "{C061B0EC-A389-48C2-8F8D-549700D710A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try.EventBus", "Try.EventBus\Try.EventBus.csproj", "{C061B0EC-A389-48C2-8F8D-549700D710A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Notifications", "Try.Notifications\Try.Notifications.csproj", "{789450C6-9C6A-47F3-97E5-680AB33D41FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try.Notifications", "Try.Notifications\Try.Notifications.csproj", "{789450C6-9C6A-47F3-97E5-680AB33D41FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.ApiGateway", "Try.ApiGateway\Try.ApiGateway.csproj", "{79EC3874-B7B6-40FF-AC97-B381FDD8A39D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try.ApiGateway", "Try.ApiGateway\Try.ApiGateway.csproj", "{79EC3874-B7B6-40FF-AC97-B381FDD8A39D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try.Analytics", "Try.Analytics\Try.Analytics.csproj", "{A14B7C73-5345-456C-B513-DE8F57DA4AE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{79EC3874-B7B6-40FF-AC97-B381FDD8A39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79EC3874-B7B6-40FF-AC97-B381FDD8A39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79EC3874-B7B6-40FF-AC97-B381FDD8A39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14B7C73-5345-456C-B513-DE8F57DA4AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14B7C73-5345-456C-B513-DE8F57DA4AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14B7C73-5345-456C-B513-DE8F57DA4AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14B7C73-5345-456C-B513-DE8F57DA4AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

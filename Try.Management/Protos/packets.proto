@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "Try.Management.Protos";
+
+message Packet {
+	string id = 1;
+    uint32 dataOffset = 2;
+	uint32 sourcePort = 3;
+	uint32 destinationPort = 4;
+	uint32 sequenceNumber = 5;
+    uint32 acknowledgment = 6;
+    uint32 controlFlags = 7;
+    uint32 windowSize  = 8;
+    uint32 urgentPoint = 9;
+    string checksum = 10;
+    string options = 11;
+	string payload = 12;
+}
+
+service Packets {
+	rpc GetAll(GetAllRequest) returns (GetAllResponse);
+}
+
+message GetAllRequest { }
+
+message GetAllResponse {
+	repeated Packet packets = 1;
+}
