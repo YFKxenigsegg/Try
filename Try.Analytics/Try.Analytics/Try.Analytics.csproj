@@ -20,8 +20,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Controllers\" />
 		<Folder Include="Protos\" />
 	</ItemGroup>
+
+	<ItemGroup>
+		<Content Update="appsettings*.json" CopyToPublishDirectory="Never" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<SourceAppSettingsConfigFile>appsettings.json.template</SourceAppSettingsConfigFile>
+		<TargetAppSettingsConfigFile>appsettings.json</TargetAppSettingsConfigFile>
+	</PropertyGroup>
+
+	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+		<Copy SourceFiles="$(SourceAppSettingsConfigFile)" DestinationFiles="$(TargetAppSettingsConfigFile)" Condition="!Exists($(TargetAppSettingsConfigFile))" />
+	</Target>
 
 </Project>
